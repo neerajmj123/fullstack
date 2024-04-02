@@ -1,0 +1,43 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box{
+    display: flex;
+    border: 1px solid #ccc;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+    background-color:transparent;
+    color:white;
+}
+.box h3{
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.heading h1{
+    margin-top: 15px;
+}
+.userlabel{
+    color: white;
+}
+.form-group input{
+ text-align: center;
+}
+button {
+    margin-bottom: 10px;
+}
+.edit{
+    background-color: rgb(235, 93, 93);
+}

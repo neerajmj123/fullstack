@@ -1,0 +1,26 @@
+.intro{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.intro .content {
+    text-align: center;
+}
+.intro .content  h3{
+    font-size: 30px;
+    color: white;
+}
+.intro .content h1 {
+    font-size: 50px; 
+} 
+.intro .content p{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: white;
+}
+.intro .content .addbtn {
+    margin: 0 5px;
+}
