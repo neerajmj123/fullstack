@@ -21,7 +21,8 @@ app.use(userRoutes);
 app.use('/getuser',userRoutes);
 app.use('/updateUser',userRoutes)
 
-
+console.log("__dirname",__dirname);
+app.use('/',express.static(__dirname + "/public"));
 // app.get('/', (req, res) => {
 //   res.send('Hello World!')
 // })
